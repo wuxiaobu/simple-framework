@@ -2,6 +2,15 @@
 
 namespace core;
 
+\Xiaoler\Blade\Autoloader::register();
+use Xiaoler\Blade\FileViewFinder;
+use Xiaoler\Blade\Factory;
+use Xiaoler\Blade\Compilers\BladeCompiler;
+use Xiaoler\Blade\Engines\CompilerEngine;
+use Xiaoler\Blade\Filesystem;
+use Xiaoler\Blade\Engines\EngineResolver;
+
+
 class base{
 	static $classMap = [];
 	public $assign;

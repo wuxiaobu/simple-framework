@@ -1,0 +1,20 @@
+{
+    "name": "wuzhixing/framework",
+    "description": "simple php framework",
+    "type": "php framework",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhixing",
+            "email": "1594989692@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "filp/whoops": "~2.0",
+        "symfony/var-dumper": "*",
+        "catfan/medoo": "*",
+        "xiaoler/blade": "^5.4"
+    }
+}
